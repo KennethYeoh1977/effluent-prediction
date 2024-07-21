@@ -112,10 +112,10 @@ def run_models(data):
 st.title("Effluent Prediction")
 
 st.markdown("""
-This application allows you to upload an Excel file, predict Industrial Effluent levels using Temporal Deep Neural Networks (TDNN), and download the predictions for further analysis.
+Easiest way for reports. This application allows you to upload an Excel file, predict Industrial Effluent levels using Temporal Deep Neural Networks (TDNN), and A.I generates reports. Designed by Ken
 """)
 
-uploaded_file = st.file_uploader("Upload your Excel file (max 50KB)", type=['xlsx'], key='1', accept_multiple_files=False)
+uploaded_file = st.file_uploader("Upload your 'DATAKEN' format Excel file (max 50KB)", type=['xlsx'], key='1', accept_multiple_files=False)
 
 if uploaded_file:
     if uploaded_file.size > 50000:
